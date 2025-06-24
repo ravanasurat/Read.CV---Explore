@@ -4,17 +4,13 @@ A full‑stack MERN web application inspired by Read.cv, designed to let users b
 
 ## 🚀 Live Demo
 
-Explore the live version here:  
-https://readcv-thisux.web.app/
+Explore : https://readcv-thisux.web.app/
 
 ## 🔍 Project Overview
 
 read.cv‑explore is a platform for creating and browsing clean, modern CV-style profiles. Think of it as a community‑driven showcase for professional summaries, projects, and engagement — reminiscent of Read.cv’s visual design emphasis :contentReference[oaicite:1]{index=1}.
 
 - **Frontend (React)** – Beautiful, responsive UI, enabling profile creation and browsing
-- **Backend (Node.js + Express)** – Robust REST API to handle users, profiles, posts
-- **Database (MongoDB)** – Stores user data, CV entries, and posts
-- **Authentication** – JWT-based login/signup with secure password handling
 - **Hosting (Firebase)** – Fast deployment of your demo site
 
 ## 💡 Key Features
@@ -30,9 +26,6 @@ read.cv‑explore is a platform for creating and browsing clean, modern CV-style
 | Layer         | Technology                |
 |---------------|----------------------------|
 | Frontend      | React, React Router, Axios |
-| Backend       | Node.js, Express           |
-| Database      | MongoDB / Mongoose         |
-| Auth          | JSON Web Tokens (JWT)      |
 | Hosting       | Firebase Hosting           |
 
 ## 🧭 Getting Started
@@ -40,15 +33,11 @@ read.cv‑explore is a platform for creating and browsing clean, modern CV-style
 1. **Clone the repo**  
    `git clone https://github.com/yourusername/readcv-explore.git`
 2. **Install dependencies**  
-   - Backend: `cd server && npm install`  
-   - Frontend: `cd client && npm install`
-3. **Create .env files**  
-   - Server: set `MONGO_URI`, `JWT_SECRET`, etc.  
-   - Client: configure Firebase keys if applicable
-4. **Launch concurrently**  
+   - Frontend: `cd frontend && npm install`
+3. **Launch concurrently**  
    - In root directory: `npm run dev`  
    - Runs Express API (port 5000) and React client (port 3000)
-5. **Visit locally**  
+4. **Visit locally**  
    - Go to `http://localhost:3000`
 
 ## 🏗️ Future Enhancements
